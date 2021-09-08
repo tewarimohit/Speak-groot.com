@@ -1,16 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Speak Groot</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        textarea {
+
+            width: 50%;
+            height: 10vh;
+            margin: 1rem;
+            text-align: center;
+            border-radius: 0.5rem;
+            font-size: large;
+            padding: 1rem;
+
+
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Speak Grooot</h1>
-    
+    <header>
+        <h1 class="header">Speak Grooot</h1>
+
+
+    </header>
+    <div class="textspace">
+        <textarea id="txt-input"
+            placeholder="Put your message here which you want to convert into Groot language."></textarea>
+        <div style=" text-align: center;
+    padding: 1rem;">
+            <button id="btn-translate" class="translate">Translate To Groot's</button>
+        </div>
+    </div>
+
+    <div style="font-size: large; text-align: center;
+    padding: 1rem;">Translation will come Here 👇</div>
+    <div class="output-box" id="output">
+
+    </div>
+
+    <footer class="footer">
+        <div class="content">
+            <h3>about..</h3>
+            <p>Have you watched the movie Guardians of the Galaxy ? Do you remember that special character Groot in it?
+                Use the translator to convert your text from English to Groot's Language.</p>
+
+
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
 
     <script src="app.js" type="text/javascript"></script>
 </body>
+
 </html>

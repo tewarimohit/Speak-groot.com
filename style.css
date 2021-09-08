@@ -4,8 +4,63 @@ body {
 
     font-family: 'Orbitron', sans-serif;
     margin: 0px;
+
+
 }
-:root {
+
+.header {
+    background-color: rgb(31, 211, 25);
+    color: brown;
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+}
+
+.textspace {
+    text-align: center;
+
+
+}
+
+.translate {
+    border: none;
+    background-color: rgb(31, 211, 25);
+    font-size: larger;
 
     color: brown;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+
+
+}
+
+.output-box {
+    border: 1px solid black;
+    height: 10vh;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+}
+
+.footer {
+    padding: 1rem;
+    background-color: rgb(31, 211, 25);
+    margin-top: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+}
+
+.content {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    color: brown;
+
 }
